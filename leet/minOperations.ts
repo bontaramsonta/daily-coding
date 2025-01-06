@@ -21,7 +21,7 @@ function minOperations(boxes: string): number[] {
     let acc = 0;
     // right prefix
     for (let i = arr.length - 1; i >= 0; i--) {
-        acc += current + moves;
+        acc = current + moves;
         moves = acc;
         result[i] += acc;
         console.log('right', i, current, moves, acc, result[i]);
