@@ -1,5 +1,4 @@
 // https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/description
-// couldn't solve this
 import { assertEquals } from 'jsr:@std/assert';
 
 function minOperations(boxes: string): number[] {
