@@ -27,8 +27,8 @@ function balanceParenthesis(input: string): boolean {
 
 const testCases = [
     { i: '([])', e: true },
-    { i: '{()[{}]}', e: true },
-    { i: '(()(()))', e: true },
+    { i: '{(a+b)[{x*y}]}', e: true },
+    { i: '(!() || (( a^b && red == true)))', e: true },
     { i: '())(', e: false },
     { i: '([)]', e: false },
 ];
